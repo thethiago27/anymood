@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 0 1rem;
+
+  margin-top: 5rem;
+
+  .question {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+}
+
+.form {
+  margin-top: 2rem;
+
+  .textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #F5F5F5;
+  }
+
+  .warning {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+
+  .button {
+    background: var(--pink500);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.8rem;
+    border: 0;
+    width: 100%;
+    border-radius: 3rem;
+
+    margin-top: 3rem;
+  }
+}
+
+.maxCharacters {
+  color: red;
+}

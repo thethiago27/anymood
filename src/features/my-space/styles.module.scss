@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+
+  p {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+  }
+
+  img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+  }
+
+}
+
+.container {
+  margin-top: 4rem;
+}
+
+.link {
+  background: var(--pink500);
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+
+  word-break: break-word;
+
+  p {
+    font-weight: bold;
+    margin-left: 1rem;
+  }
+
+  &:hover {
+    background: var(--purple500);
+  }
+
+}
+
+
+.answers {
+  margin-top: 1rem;
+}

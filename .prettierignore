@@ -1,0 +1,12 @@
+build
+mocks
+vite.config.ts
+prettier.config.ts
+jest.config.ts
+bitbucket-pipelines.yml
+tsconfig.json
+tsconfig.node.json
+package.json
+
+
+

@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+
+  p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .anymood {
+    font-weight: bold;
+    color: var(--pink500);
+  }
+}
